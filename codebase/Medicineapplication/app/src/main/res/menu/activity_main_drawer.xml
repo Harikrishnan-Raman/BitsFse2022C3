@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/navigation_order_medicines"
+            android:title="@string/order_medicines" />
+        <item
+            android:id="@+id/navigation_book_appointment"
+            android:title="@string/book_appointment" />
+        <item
+            android:id="@+id/navigation_book_lab_test"
+            android:title="@string/book_lab_test" />
+        <item
+            android:id="@+id/navigation_get_alternative"
+            android:title="@string/get_alternative" />
+    </group>
+</menu>

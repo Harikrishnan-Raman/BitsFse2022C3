@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.medicineapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_order_medicines"
+        android:name="com.example.medicineapplication.ui.underconstruction.UnderConstructionFragment"
+        android:label="@string/order_medicines"
+        tools:layout="@layout/fragment_underconstruction" />
+    <fragment
+        android:id="@+id/navigation_book_appointment"
+        android:name="com.example.medicineapplication.ui.underconstruction.UnderConstructionFragment"
+        android:label="@string/book_appointment"
+        tools:layout="@layout/fragment_underconstruction" />
+    <fragment
+        android:id="@+id/navigation_book_lab_test"
+        android:name="com.example.medicineapplication.ui.underconstruction.UnderConstructionFragment"
+        android:label="@string/book_lab_test"
+        tools:layout="@layout/fragment_underconstruction" />
+    <fragment
+        android:id="@+id/navigation_get_alternative"
+        android:name="com.example.medicineapplication.ui.getalternativeproducts.getalternativeproductsFragment"
+        android:label="@string/get_alternative"
+        tools:layout="@layout/fragment_getalternativeproducts"/>
+
+</navigation>
