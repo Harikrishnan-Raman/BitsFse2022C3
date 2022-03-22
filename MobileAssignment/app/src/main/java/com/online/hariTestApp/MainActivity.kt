@@ -141,7 +141,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         medicine1.setText("")
         medicine_des.setText("")
         etID.setText("")
-        etID.hint = "ID"
         medicine1.requestFocus()
         val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
         imm.showSoftInput(medicine1, InputMethodManager.SHOW_IMPLICIT)
